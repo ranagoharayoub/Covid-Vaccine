@@ -1,0 +1,11 @@
+.portal-cont{
+    /* Background */
+    position: absolute;
+    width: 1440px;
+    height: 922px;
+    left: 0px;
+    top: 102px;
+    background: #C5E5EB;
+    background-color: black;
+
+}
