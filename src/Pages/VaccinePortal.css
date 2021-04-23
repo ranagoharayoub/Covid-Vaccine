@@ -5,14 +5,17 @@
     left: 0px;
     top: 11%;
     background: #C5E5EB;
+    display: flex;
+    overflow: auto;
 
 }
 
 .cards{
 
-    position: absolute;
+    /* position: absolute;
     left: 2.99%;
-    top: 10%;
+    top: 10%; */
+    margin: 50px 20px;
     height: 416px;
     width: 304px;
     background: #232F3E;
