@@ -14,7 +14,7 @@ function VaccineNews() {
                         <div className='first-img'><img alt='img'></img></div>
                         <div className='headline'>
                             <h3 style={{borderBottom: '1px solid lightgrey', margin: '2px 2px'}}>{data.title}</h3>
-                            <p style={{margin:'2pxpx 2px'}}>{data.content}</p>
+                            <p style={{margin:'2px 2px'}}>{data.content}</p>
                             </div>
                         <div className='second-img'><img alt='img'></img></div>
                     </a>
