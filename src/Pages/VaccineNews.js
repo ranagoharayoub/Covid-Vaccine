@@ -10,18 +10,16 @@ function VaccineNews() {
              <div className='news-sect'>
                  {
                      VaccineNews.map((data, index) => 
-                     <div key={index} className='news-slice'>
+                     <a href={data.link} key={index} className='news-slice'>
                         <div className='first-img'><img alt='img'></img></div>
-                        <div className='headline'><h3>{data.title}</h3></div>
+                        <div className='headline'>
+                            <h3 style={{borderBottom: '1px solid lightgrey', margin: '2px 2px'}}>{data.title}</h3>
+                            <p style={{margin:'2pxpx 2px'}}>{data.content}</p>
+                            </div>
                         <div className='second-img'><img alt='img'></img></div>
-                    </div>
+                    </a>
                  )
                  }
-                 {/* <div className='news-slice'>
-                     <div className='first-img'><img alt='img'></img></div>
-                     <div className='headline'><h3>News-Bullet</h3></div>
-                     <div className='second-img'><img alt='img'></img></div>
-                 </div> */}
                  {/* <div className='btn'>
                     <button className='recent-btn'>RECENT NEWS</button>
                     <button className='older-btn'>OLDER NEWS</button>

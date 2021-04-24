@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useStateValue } from '../ContextAPI/ContextApi'
 import './HomePortal.css'
 
