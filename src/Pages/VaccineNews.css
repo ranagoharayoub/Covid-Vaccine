@@ -38,7 +38,7 @@
 .first-img{
     /* height: 130px; */
     width: 15%;
-    background-color: dimgray;
+    /* background-color: darkslategray; */
     border-radius: 10px;
 }
 
@@ -58,7 +58,7 @@
     /* height: 100%; */
     border-radius: 10px;
     width: 15%;
-    background-color: dimgray;
+    /* background-color: dimgray; */
 }
 
 .btn{

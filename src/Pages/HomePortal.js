@@ -1,4 +1,5 @@
 import React from 'react'
+import CountUp from 'react-countup'
 import { useStateValue } from '../ContextAPI/ContextApi'
 import './HomePortal.css'
 
@@ -23,9 +24,19 @@ function HomePortal() {
                 <br></br>
                     all current FDA approved vaccines.
             </p>
-            <div className='orange-box'><p className='orange-p'>{avaccinated}</p></div>
+            <div className='orange-box'>
+                <p className='orange-p'>
+                    <CountUp start={0} end={avaccinated} duration={2.75} separator=",">
+                    </CountUp>
+                </p>
+            </div>
             <p className='vda'>Vaccine Doses Administered</p>
-            <div className='blue-box'><p className='blue-p'>{cvaccinated}</p></div>
+            <div className='blue-box'>
+                <p className='blue-p'>
+                    <CountUp start={0} end={cvaccinated} duration={2.75} separator=",">
+                    </CountUp>
+                </p>
+            </div>
             <p className='pfv'>People Fully Vaccinated</p>
         </div>
     )
